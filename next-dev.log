@@ -1,0 +1,70 @@
+
+> instaflow-ai-dashboard@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.2.4
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.9s
+ ○ Compiling /instagram ...
+ ✓ Compiled /analytics in 20.6s (794 modules)
+ GET /analytics 200 in 15752ms
+ GET /dashboard 200 in 17771ms
+ GET /instagram 200 in 22796ms
+ GET /dashboard 200 in 305ms
+ ○ Compiling /calendar ...
+ ✓ Compiled /calendar in 912ms (782 modules)
+ GET /calendar 200 in 1273ms
+ GET /calendar 200 in 78ms
+ ○ Compiling /create-post ...
+ ✓ Compiled /create-post in 969ms (791 modules)
+ GET /create-post 200 in 1134ms
+ ○ Compiling /api/generate-caption ...
+ ✓ Compiled /api/generate-caption in 959ms (807 modules)
+ POST /api/generate-caption 200 in 1382ms
+ POST /api/generate-caption 200 in 20ms
+ POST /api/generate-caption 200 in 22ms
+ POST /api/generate-caption 200 in 23ms
+ POST /api/generate-caption 200 in 23ms
+ ○ Compiling /analytics ...
+ ✓ Compiled /analytics in 520ms (468 modules)
+ GET /analytics 200 in 860ms
+ ○ Compiling /automations ...
+ ✓ Compiled /automations in 1037ms (811 modules)
+ GET /automations 200 in 1319ms
+ GET /automations 200 in 79ms
+ ○ Compiling /approvals ...
+ ✓ Compiled /approvals in 840ms (813 modules)
+ GET /approvals 200 in 1029ms
+ ○ Compiling /templates ...
+ ✓ Compiled /templates in 943ms (813 modules)
+ GET /templates 200 in 1122ms
+ ○ Compiling /media-library ...
+ ✓ Compiled /media-library in 1640ms (827 modules)
+ GET /media-library 200 in 2162ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 576ms (471 modules)
+ GET /dashboard 200 in 1147ms
+ ○ Compiling /calendar ...
+ ✓ Compiled /calendar in 601ms (464 modules)
+ GET /calendar 200 in 942ms
+ ○ Compiling /scheduled-posts ...
+ ✓ Compiled /scheduled-posts in 1527ms (812 modules)
+ GET /scheduled-posts 200 in 1724ms
+ GET /scheduled-posts 200 in 54ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 694ms (814 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1079ms
+ ○ Compiling /automations ...
+ ✓ Compiled /automations in 564ms (468 modules)
+ GET /automations 200 in 768ms
+ ○ Compiling /accounts ...
+ ✓ Compiled /accounts in 877ms (818 modules)
+ GET /accounts 200 in 1061ms
+ GET /accounts 200 in 58ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 1072ms (811 modules)
+ GET /settings 200 in 1521ms
+ GET /settings 200 in 47ms
