@@ -1,0 +1,455 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Olivia Carter",
+      "email": "olivia@instaflow.ai",
+      "password": "password123"
+    }
+  ],
+  "settings": {
+    "fullName": "Olivia Carter",
+    "email": "olivia@instaflow.ai",
+    "brandVoice": "Confident, polished, concise, and useful. Avoid sounding overly promotional.",
+    "theme": "light"
+  },
+  "connected": true,
+  "connectedAccount": {
+    "username": "instaflow.demo",
+    "bio": "Helping brands scale publishing with lightweight AI automation.",
+    "avatar": "https://i.pravatar.cc/200?img=12"
+  },
+  "managedAccounts": [
+    {
+      "id": 1,
+      "name": "InstaFlow Demo",
+      "handle": "@instaflow.demo",
+      "team": "Growth",
+      "status": "Connected"
+    },
+    {
+      "id": 2,
+      "name": "Launch Lab",
+      "handle": "@launchlab.co",
+      "team": "Agency",
+      "status": "Needs refresh"
+    },
+    {
+      "id": 3,
+      "name": "Agency South",
+      "handle": "@agency.south",
+      "team": "Client Success",
+      "status": "Connected"
+    }
+  ],
+  "scheduledPosts": [
+    {
+      "id": 1773910090032,
+      "topic": "API integration test",
+      "caption": "Post created through local API integration",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+      "scheduledFor": "2026-03-25 18:00",
+      "status": "Scheduled",
+      "account": "@instaflow.demo",
+      "format": "Feed",
+      "tone": "Bold",
+      "cta": "Save this post"
+    },
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+      "caption": "Behind the scenes from our latest creator campaign. Soft launch visuals, strong storytelling, and a simple CTA to drive saves.",
+      "scheduledFor": "Mar 22, 2026 - 6:30 PM",
+      "status": "Scheduled",
+      "account": "@instaflow.demo",
+      "format": "Feed",
+      "topic": "Creator campaign",
+      "tone": "Bold",
+      "cta": "Save this post"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80",
+      "caption": "A carousel-ready post introducing the next product drop with a tighter hook, cleaner structure, and a premium tone.",
+      "scheduledFor": "Mar 21, 2026 - 11:00 AM",
+      "status": "Needs Approval",
+      "account": "@instaflow.demo",
+      "format": "Story",
+      "topic": "Product launch",
+      "tone": "Luxury",
+      "cta": "Shop now"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+      "caption": "Community spotlight post published after the AI polished the opening line and shortened the CTA for better readability.",
+      "scheduledFor": "Mar 19, 2026 - 2:15 PM",
+      "status": "Posted",
+      "account": "@agency.south",
+      "format": "Feed",
+      "topic": "Community spotlight",
+      "tone": "Minimal",
+      "cta": "Comment below"
+    }
+  ],
+  "inboxThreads": [
+    {
+      "id": 1,
+      "name": "Maya Johnson",
+      "preview": "hi this is from axentrixx",
+      "lastSeen": "now",
+      "label": "Lead",
+      "assignedTo": "Olivia Carter",
+      "notes": "Customer is evaluating reel scheduling, approval workflows, and cleaner inbox handling.",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "text": "Hi, I love the dashboard. Can I schedule reels too, or only feed posts?",
+          "time": "10:12 AM"
+        },
+        {
+          "id": 2,
+          "sender": "agent",
+          "text": "Right now this workflow supports feed posts, and reel support is the next publishing format in the queue.",
+          "time": "10:13 AM"
+        },
+        {
+          "id": 3,
+          "sender": "customer",
+          "text": "Perfect. I mainly need better caption generation and a cleaner inbox.",
+          "time": "10:15 AM"
+        },
+        {
+          "id": 1773910202738,
+          "sender": "agent",
+          "text": "hi this is from axentrixx",
+          "time": "02:20 pm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Studio North",
+      "preview": "We need approval steps before anything goes live.",
+      "lastSeen": "18m",
+      "label": "Priority",
+      "assignedTo": "Team Review",
+      "notes": "Interested in multi-step approval gates and auditability.",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "customer",
+          "text": "We need approval steps before anything goes live.",
+          "time": "11:02 AM"
+        }
+      ]
+    }
+  ],
+  "automationFlows": [
+    {
+      "id": 1,
+      "name": "Weekly content planner",
+      "status": "Active",
+      "trigger": "Every Monday at 9:00 AM",
+      "description": "Turns campaign goals into a draft posting plan for the week."
+    },
+    {
+      "id": 2,
+      "name": "Evergreen queue recycler",
+      "status": "Paused",
+      "trigger": "When queue depth falls below 5 posts",
+      "description": "Reuses approved evergreen content with refreshed captions."
+    },
+    {
+      "id": 3,
+      "name": "Inbox moderation",
+      "status": "Active",
+      "trigger": "On incoming DM",
+      "description": "Flags spam, abuse, and repetitive sales requests automatically."
+    }
+  ],
+  "approvalQueue": [
+    {
+      "id": 1,
+      "title": "Spring drop carousel",
+      "owner": "Ava Reed",
+      "due": "Today, 5:00 PM",
+      "stage": "Final review"
+    },
+    {
+      "id": 2,
+      "title": "Creator story script",
+      "owner": "Jules Park",
+      "due": "Today, 7:30 PM",
+      "stage": "Legal check"
+    },
+    {
+      "id": 3,
+      "title": "Weekend reel caption",
+      "owner": "Olivia Carter",
+      "due": "Tomorrow, 11:00 AM",
+      "stage": "Manager review"
+    }
+  ],
+  "templateLibrary": [
+    {
+      "id": 1,
+      "name": "Launch Countdown",
+      "category": "Campaign",
+      "description": "A recurring teaser sequence with urgency and a clean CTA structure."
+    },
+    {
+      "id": 2,
+      "name": "Founder Note",
+      "category": "Storytelling",
+      "description": "Designed for personal brand updates and behind-the-scenes content."
+    },
+    {
+      "id": 3,
+      "name": "Product Carousel",
+      "category": "Sales",
+      "description": "A modular structure for feature-led carousel copy and slide hooks."
+    }
+  ],
+  "mediaAssets": [
+    {
+      "id": 1,
+      "title": "Launch portrait set",
+      "type": "Image",
+      "tag": "Campaign",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Founder reel cut",
+      "type": "Video",
+      "tag": "Storytelling",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "Approval reminder",
+      "description": "Three launch posts still need final review before 5:00 PM.",
+      "tone": "warning"
+    },
+    {
+      "id": 2,
+      "title": "Inbox spike detected",
+      "description": "Direct message volume is 22% above your weekly average.",
+      "tone": "info"
+    },
+    {
+      "id": 3,
+      "title": "Best-time suggestion updated",
+      "description": "Weekday posts at 6:30 PM are outperforming your median by 14%.",
+      "tone": "success"
+    }
+  ],
+  "onboardingTasks": [
+    {
+      "id": 1,
+      "title": "Connect Instagram account",
+      "done": true
+    },
+    {
+      "id": 2,
+      "title": "Define your brand voice",
+      "done": true
+    },
+    {
+      "id": 3,
+      "title": "Upload campaign media assets",
+      "done": false
+    },
+    {
+      "id": 4,
+      "title": "Create your first automation workflow",
+      "done": false
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": 1773910226246,
+      "title": "Automation updated",
+      "description": "Weekly content planner is now active.",
+      "tag": "Automation",
+      "time": "Just now"
+    },
+    {
+      "id": 1773910224379,
+      "title": "Automation updated",
+      "description": "Weekly content planner is now paused.",
+      "tag": "Automation",
+      "time": "Just now"
+    },
+    {
+      "id": 1773910202768,
+      "title": "Inbox reply sent",
+      "description": "A reply was sent to Maya Johnson.",
+      "tag": "Inbox",
+      "time": "Just now"
+    },
+    {
+      "id": 1773910090032,
+      "title": "New post scheduled",
+      "description": "A feed post was scheduled for 2026-03-25 18:00.",
+      "tag": "Scheduled",
+      "time": "Just now"
+    },
+    {
+      "id": 1,
+      "title": "AI generated a caption for the spring capsule campaign",
+      "description": "The caption draft is waiting for review in the Create Post workspace.",
+      "tag": "AI Draft",
+      "time": "10 min ago"
+    },
+    {
+      "id": 2,
+      "title": "New customer conversation started from story mention",
+      "description": "A prospect asked for pricing details and sizing recommendations.",
+      "tag": "Inbox",
+      "time": "24 min ago"
+    }
+  ],
+  "performanceSeries": [
+    {
+      "label": "Mon",
+      "engagement": 64,
+      "reach": 82
+    },
+    {
+      "label": "Tue",
+      "engagement": 71,
+      "reach": 78
+    },
+    {
+      "label": "Wed",
+      "engagement": 88,
+      "reach": 91
+    },
+    {
+      "label": "Thu",
+      "engagement": 76,
+      "reach": 87
+    },
+    {
+      "label": "Fri",
+      "engagement": 94,
+      "reach": 98
+    },
+    {
+      "label": "Sat",
+      "engagement": 68,
+      "reach": 73
+    },
+    {
+      "label": "Sun",
+      "engagement": 59,
+      "reach": 66
+    }
+  ],
+  "bestPostingWindows": [
+    {
+      "day": "Monday",
+      "slot": "6:30 PM",
+      "uplift": "+12%"
+    },
+    {
+      "day": "Wednesday",
+      "slot": "12:15 PM",
+      "uplift": "+9%"
+    },
+    {
+      "day": "Friday",
+      "slot": "7:00 PM",
+      "uplift": "+17%"
+    }
+  ],
+  "competitorInsights": [
+    {
+      "name": "Glow Social",
+      "focus": "Reels + creator collabs",
+      "trend": "Carousel education posts grew 28% this month."
+    },
+    {
+      "name": "Threadline Studio",
+      "focus": "Product launches",
+      "trend": "Short CTA captions are outperforming long-form posts."
+    },
+    {
+      "name": "The Daily Drop",
+      "focus": "Community storytelling",
+      "trend": "Comment prompts are driving stronger conversation depth."
+    }
+  ],
+  "calendarColumns": [
+    {
+      "day": "Mon 18",
+      "items": [
+        {
+          "title": "API integration test",
+          "time": "18:00",
+          "status": "Scheduled"
+        },
+        {
+          "title": "Founder story",
+          "time": "10:00",
+          "status": "Draft"
+        },
+        {
+          "title": "Customer review reel",
+          "time": "18:30",
+          "status": "Scheduled"
+        }
+      ]
+    },
+    {
+      "day": "Tue 19",
+      "items": [
+        {
+          "title": "Launch teaser",
+          "time": "12:00",
+          "status": "Approval"
+        }
+      ]
+    },
+    {
+      "day": "Wed 20",
+      "items": [
+        {
+          "title": "Template refresh",
+          "time": "16:00",
+          "status": "Scheduled"
+        }
+      ]
+    },
+    {
+      "day": "Thu 21",
+      "items": [
+        {
+          "title": "Creator collab story",
+          "time": "11:30",
+          "status": "Draft"
+        }
+      ]
+    },
+    {
+      "day": "Fri 22",
+      "items": [
+        {
+          "title": "Community spotlight",
+          "time": "19:00",
+          "status": "Published"
+        }
+      ]
+    }
+  ],
+  "userProfile": {
+    "name": "Olivia Carter",
+    "role": "Growth Lead",
+    "avatar": "https://i.pravatar.cc/100?img=32"
+  }
+}
